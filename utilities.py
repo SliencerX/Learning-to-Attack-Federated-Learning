@@ -52,7 +52,6 @@ def default_loader(path):
 
 class Distribution_set(Dataset):
     def __init__(self, datapath='fashion_test/no_process', labelpath = 'fashion_test/data.csv', loader=default_loader):
-        #定义好 image 的路径
         self.path = datapath
         files = os.listdir(self.path)
         num_png = len(files)
