@@ -1,7 +1,7 @@
 # Learning-to-Attack-Federated-Learning
 This is the reference code for implementing our Learning-to-Attack-Federated-Learning framework.
 
-## setup environment
+## Setup Environment
 
 Please run the following command to install required packages
 
@@ -19,7 +19,7 @@ python3 sim_train.py
 #Change the model dir to your own experiment
 python3 test.py
 ```
-## Reference
+## References
 Our inverting gradients implementation is modified from https://github.com/JonasGeiping/invertinggradients
 
 The implementation of FL system is based on https://github.com/adap/flower (Flower - A Friendly Federated Learning Framework)
