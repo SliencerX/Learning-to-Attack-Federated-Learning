@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ## Autoencoder
 ```
-#You can change dataset to train your own autoencoder
+#You can change dataset in denoise.py to train your own autoencoder and replace the autoencoder directory in sim_train.py
 python3 denoise.py
 ```
 
